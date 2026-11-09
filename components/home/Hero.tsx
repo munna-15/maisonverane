@@ -365,7 +365,7 @@ export function Hero({
 
       <div
         aria-live={isPaused ? "polite" : "off"}
-        className="relative isolate aspect-[4/5] max-h-[34rem] w-full overflow-hidden rounded-2xl bg-warm-200 sm:aspect-[4/3] sm:max-h-[36rem] sm:rounded-3xl lg:aspect-[2/1] lg:max-h-[min(44rem,calc(100svh_-_var(--header-height,4.5rem)_-_4rem))] lg:min-h-[30rem]"
+        className="relative isolate aspect-[4/5] max-h-[34rem] w-full overflow-hidden rounded-2xl bg-warm-200 sm:aspect-[4/3] sm:max-h-[36rem] sm:rounded-3xl lg:aspect-[2.15/1] lg:max-h-[min(40rem,calc(100svh_-_var(--header-height,4.5rem)_-_5rem))] lg:min-h-[27rem]"
       >
         {slides.map((slide, index) => {
           const status: LayerStatus =
